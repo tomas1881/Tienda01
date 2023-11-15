@@ -1,0 +1,77 @@
+/* Establece un fondo minimalista para el AnchorPane */
+#AnchorPane {
+    -fx-background-color: #f4f4f4; /* Color de fondo gris claro */
+}
+
+/* Estilo para el título de la aplicación */
+#label {
+    -fx-font-size: 28px;
+    -fx-text-fill: #333333; /* Color del texto gris oscuro */
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #666666; /* Color de fondo gris medio */
+    -fx-text-fill: #ffffff; /* Color del texto blanco */
+    -fx-font-size: 12px; /* Tamaño del texto */
+    -fx-padding: 6px 12px; /* Ajuste del espacio interno */
+    -fx-background-radius: 4px; /* Borde redondeado */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0); /* Sombra */
+}
+
+/* Cambia el color al pasar el ratón sobre el botón */
+.button:hover {
+    -fx-background-color: #333333; /* Nuevo color de fondo gris oscuro */
+}
+
+/* Estilo para la tabla */
+#Tabla {
+    -fx-table-cell-border-color: #e0e0e0; /* Color del borde gris claro */
+    -fx-control-inner-background: #ffffff; /* Color de fondo blanco */
+}
+
+/* Estilo para los campos de texto */
+.text-field {
+    -fx-background-color: #ffffff; /* Color de fondo blanco */
+    -fx-border-color: #666666; /* Color del borde gris medio */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-text-fill: #333333; /* Color del texto gris oscuro */
+    -fx-background-radius: 4px; /* Borde redondeado */
+}
+
+/* Estilo para los labels */
+.label {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333333; /* Color del texto gris oscuro */
+}
+
+/* Estilo para el fondo del ComboBox */
+.combo-box {
+    -fx-background-color: #ffffff; /* Color de fondo blanco */
+    -fx-border-color: #666666; /* Color del borde gris medio */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-background-radius: 4px; /* Borde redondeado */
+}
+
+/* Estilo para el contenido del ComboBox */
+.combo-box-popup {
+    -fx-background-color: #ffffff; /* Color de fondo blanco */
+    -fx-border-color: #666666; /* Color del borde gris medio */
+    -fx-border-width: 1px; /* Ancho del borde */
+    -fx-background-radius: 4px; /* Borde redondeado */
+}
+
+/* Estilo para los botones de acción en la parte inferior */
+#btnGuardar, #btnEliminar, #btnAgregar, #btnMyMPromedio, #btnMyMPrecio, #btnPromedio, #btnListarPorMes, #btnAgregarCola, #Añadir, #bttVerCarrito {
+    -fx-background-color: #666666; /* Color de fondo gris medio */
+    -fx-text-fill: #ffffff; /* Color del texto blanco */
+    -fx-font-size: 12px; /* Tamaño del texto */
+    -fx-padding: 6px 12px; /* Ajuste del espacio interno */
+    -fx-background-radius: 4px; /* Borde redondeado */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0); /* Sombra */
+}
+
+/* Cambia el color al pasar el ratón sobre el botón */
+#btnGuardar:hover, #btnEliminar:hover, #btnAgregar:hover, #btnMyMPromedio:hover, #btnMyMPrecio:hover, #btnPromedio:hover, #btnListarPorMes:hover, #btnAgregarCola:hover, #Añadir:hover, #bttVerCarrito:hover {
+    -fx-background-color: #333333; /* Nuevo color de fondo gris oscuro */
+}

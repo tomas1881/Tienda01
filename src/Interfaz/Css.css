@@ -1,0 +1,61 @@
+/* Establece un fondo para el AnchorPane */
+#AnchorPane {
+    -fx-background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilo para el título "Carrito de Compras" */
+#Titulo {
+    -fx-font-size: 40px;
+    -fx-text-fill: #333333;
+    -fx-font-family: "Arial Black", Gadget, sans-serif;
+}
+
+/* Estilo para los botones */
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-pref-width: 100px; /* Ancho preferido */
+    -fx-pref-height: 30px; /* Altura preferida */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+/* Estilo para el separador */
+.separator {
+    -fx-background-color: #4CAF50;
+}
+
+/* Estilo para la TableView */
+#TablaCarrito {
+    -fx-table-cell-border-color: #4CAF50;
+    -fx-control-inner-background: #ffffff;
+}
+
+/* Estilo para el TextField */
+#TotalPagar {
+    -fx-background-color: #ffffff;
+    -fx-font-size: 14px;
+    -fx-pref-width: 150px; /* Ancho preferido */
+}
+
+/* Estilo para la etiqueta "Total a pagar" */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Estilo para el botón de eliminar */
+#btnEliminar {
+    -fx-background-color: #d9534f; /* Rojo */
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-pref-width: 80px; /* Ancho preferido */
+    -fx-pref-height: 30px; /* Altura preferida */
+}
+
+#btnEliminar:hover {
+    -fx-background-color: #c9302c; /* Cambio de color al pasar el mouse */
+}

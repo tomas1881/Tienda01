@@ -1,0 +1,12 @@
+ID: 13  | Nombre: sd  | Fecha de Lote: 2023-11-01 | Fecha de Vencimiento: 2023-11-03 | Precio Unitario: 43,00
+ID: 432 | Nombre: bv  | Fecha de Lote: 2023-11-09 | Fecha de Vencimiento: 2023-11-16 | Precio Unitario: 42,00
+ID: 131 | Nombre: sd  | Fecha de Lote: 2023-11-01 | Fecha de Vencimiento: 2023-11-03 | Precio Unitario: 422,00
+ID: 98  | Nombre: hg  | Fecha de Lote: 2023-11-09 | Fecha de Vencimiento: 2023-11-21 | Precio Unitario: 43,00
+ID: 981 | Nombre: 23  | Fecha de Lote: 2023-11-25 | Fecha de Vencimiento: 2023-12-09 | Precio Unitario: 12222,00
+ID: 87  | Nombre: jhg | Fecha de Lote: 2023-11-16 | Fecha de Vencimiento: 2023-11-30 | Precio Unitario: 435,00
+ID: 98  | Nombre: re  | Fecha de Lote: 2023-11-01 | Fecha de Vencimiento: 2023-11-30 | Precio Unitario: 344444,00
+ID: 86  | Nombre: 32  | Fecha de Lote: 2023-11-08 | Fecha de Vencimiento: 2023-11-16 | Precio Unitario: 333,00
+ID: 2012 | Nombre: ucc | Fecha de Lote: 2023-11-08 | Fecha de Vencimiento: 2023-11-16 | Precio Unitario: 321,00
+ID: 32  | Nombre: 98  | Fecha de Lote: 2023-11-17 | Fecha de Vencimiento: 2023-11-25 | Precio Unitario: 23333,00
+ID: 32  | Nombre: 98  | Fecha de Lote: 2023-11-17 | Fecha de Vencimiento: 2023-11-25 | Precio Unitario: 23333,00
+ID: 25  | Nombre: p   | Fecha de Lote: 2023-11-17 | Fecha de Vencimiento: 2023-11-25 | Precio Unitario: 23333,00

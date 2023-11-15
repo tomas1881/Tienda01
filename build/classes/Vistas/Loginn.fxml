@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="441.0" prefWidth="928.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.FXMLController">
+    <stylesheets>
+        <URL value="@fxml.css" />
+    </stylesheets>
+    <children>
+        <Pane fx:id="main_area" layoutX="520.0" layoutY="-3.0" prefHeight="448.0" prefWidth="447.0" styleClass="login-main" stylesheets="@fxml.css">
+            <children>
+                <Label layoutX="61.0" layoutY="61.0" text="Bienvenido" textFill="#31456f">
+                    <font>
+                        <Font name="Arial" size="42.0" />
+                    </font>
+                </Label>
+                <Label layoutX="61.0" layoutY="114.0" text="Mi Tienda de Productos" textFill="#595858">
+                    <font>
+                        <Font name="Arial" size="18.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="usuario" layoutX="74.0" layoutY="184.0" prefHeight="40.0" prefWidth="300.0" promptText="Usuario">
+                    <font>
+                        <Font name="Arial" size="18.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="contra" layoutX="75.0" layoutY="260.0" prefHeight="40.0" prefWidth="300.0" promptText="Contraseña">
+                    <font>
+                        <Font name="Arial" size="18.0" />
+                    </font>
+                </PasswordField>
+                <Button fx:id="loginn" layoutX="125.0" layoutY="327.0" mnemonicParsing="false" onAction="#login" onMouseClicked="#loginAccount" prefHeight="40.0" prefWidth="200.0" styleClass="login-button" stylesheets="@fxml.css" text="Iniciar Sesión">
+                    <font>
+                        <Font name="Arial" size="16.0" />
+                    </font>
+                </Button>
+                <Label layoutX="75.0" layoutY="151.0" text="Usuario" textFill="#595858">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="77.0" layoutY="233.0" text="Contraseña" textFill="#595858">
+                    <font>
+                        <Font name="Arial" size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <ImageView fitHeight="441.0" fitWidth="514.0" layoutX="30.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Imagenes/Logo.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
